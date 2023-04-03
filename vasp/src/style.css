@@ -1,0 +1,240 @@
+body {
+    background-color: #1E1E1E;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #CCCCCC;
+}
+
+.menu {
+    width: 100%;
+    height: 1000px;
+    background-color: #1E1E1E;
+    background-image: url(../images/Menu.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.buttonsArea {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.searchArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchArea input{
+    height: 20px;
+    background-color: #1E1E1E;
+    width: 300px;
+    font-size: 18px;
+    color: #CCCCCC;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.profileArea {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.menuBottomInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+
+.menuBtn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menuIcon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menuText {
+    font-size: 15px;
+    color: #969696;
+    width: 231px;
+}
+
+.collectionBtn {
+    color: white;
+    font-size: 24px;
+    width: fit-content;
+    margin-left: 17%;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+.collectionBtn:hover {
+    margin-top: 19px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.leftContent {
+    margin-top: 10%;
+}
+
+.date {
+    margin-top: 80%;
+    font-size: 20px;
+}
+
+.main {
+    background-color: white;
+    height: 1450px;
+}
+
+.title {
+    font-family: 'Imbue', serif;
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: 17%;
+    margin-top: 0px;
+    padding-top: 5%;
+    width: 795px;
+    margin-bottom: 36px;
+}
+
+.genderArea {
+    margin-left: 15%;
+    display: flex;
+    margin-top: 0;
+    flex-direction: row;
+    gap: 41px;
+}
+
+.genderBtn {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top: 0;
+    font-size: 24px;
+    border: 2px solid black;
+    text-align: center;
+    max-width: 160px;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.all {
+    width: 95px;
+}
+
+.male {
+    width: 160px;
+    background-color: #FF005C;
+    border-color: white;
+}
+
+.female {
+    width: 147px;
+}
+
+.genderBtn:hover {
+    background-color: #FF005C;
+    border-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.centeredContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.productRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.price {
+    color: grey;
+    font-size: 22px;
+}
+  
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #FF005C;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+.cardImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 50;
+}
+
+.card img {
+    transition: 0.3s;
+}
+
+.card img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}

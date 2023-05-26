@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula 03</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Inputs do HTML</h1>
+      <p>Estou aprendendo sobre inputs</p>
+      <input type="button" value="clique no botão" />
+      <p>Selecione suas comidas</p>
+      <label for="lasanha">Lasanha</label>
+      <input id="lasanha" name="comida" type="checkbox" />
+      <label for="panqueca">Panqueca</label>
+      <input id="panqueca" name="comida" type="checkbox" />
+      <label for="strogonoff">Strogonoff</label>
+      <input type="checkbox" id="strogonoff" name="comida">
+      <p>Selecione um cor:</p>
+      <input type="color" value="#ff00bb"> 
+      <p>Selecione uma data:</p>
+      <input type="date" value="2023-05-15"
+      min="2023-05-15" max="2024-05-15"> 
+      <p>Coloque o seu Email:</p>
+      <input type="email" placeholder="seu@email.com.br" list="defaultEmails">
+      <datalist id="defaultEmails">
+        <option value="exemplo@email.com.br"></option>
+        <option value="meu@email.com.br"></option>
+        <option value="seu@email.com.br"></option>
+      </datalist>
+      <p>Faça o upload de um arquivo:</p>
+      <input type="file" accept=".png, .jpg" multiple>
+      <p>Insira um número:</p>
+      <input type="number" min="10000" max="50000" value="10000">
+      <p>Coloque uma senha:</p>
+      <input type="password" placeholder="senha">
+      <p>Selecione qual o seu navegador:</p>
+      <label for="chrome">Chrome</label>
+      <input id="chrome" name="navegador" type="radio">
+      <label for="opera">Opera</label>
+      <input id="opera" name="navegador" type="radio">
+      <label for="edge">Edge</label>
+      <input id="edge" name="navegador" type="radio">
+      <label for="firefox">Firefox</label>
+      <input id="firefox" name="navegador" type="radio">
+      <p>Coloque um texto:</p>
+      <input type="text" maxlength="20" minlength="5">
+      <img src="images/simon-humler-n96IMMvSyHY-unsplash.jpg">
+    </div>
+  </body>
+</html>
